@@ -1,0 +1,410 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(/image/background.jpg);
+  /* background-color: rgba(252, 249, 248, 0.9); */
+}
+
+.backgroundColor {
+  background-color: rgba(252, 249, 248, 0.7);
+}
+
+.section--padding {
+  padding: 2rem 6rem;
+}
+
+.logoLink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 2rem 6rem 1rem 6rem;
+}
+
+.authorName {
+  font-family: poppins;
+  font-size: 24px;
+  color: #212529;
+  line-height: 32.78px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.authorName:hover {
+  content: "alex john lucas";
+  color: #e0a187;
+}
+
+
+.main-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.navLinks,
+.navItems,
+.navLink {
+  font-family: poppins;
+  font-size: 14px;
+  line-height: 19.12px;
+  font-weight: 500;
+  color: #212529;
+  text-decoration: none;
+  list-style: none;
+}
+/* #4bbb7d */
+.navLinks,
+.navItems,
+.navLink:hover {
+  color: #4bbb7d;
+}
+
+.words--color {
+  color: #e0a187;
+}
+
+.anchorline {
+  border-top: 0.4px solid #21252933;
+}
+
+/* .header {
+  z-index: 10;
+  height: 2rem;
+} */
+
+/* .header {
+  display: flex;
+  justify-content: center;
+} */
+
+.logoLink.sticky {
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  padding: 1rem 0 1rem 0;
+}
+
+.menuOpenButton {
+  display: none;
+  width: 1.8rem;
+  height: 1.8rem;
+  cursor: pointer;
+  color: #000000;
+}
+
+.closeNav {
+  display: none;
+  color: #212529;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+/* SECTION ONE */
+.whatever--radiusImage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8rem;
+  z-index: 10;
+  padding-top: 5rem;
+}
+
+.heading--one {
+  font-family: poppins;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 81.94px;
+  color: #212529;
+  margin-bottom: 4px;
+}
+
+.paragraph {
+  font-family: poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #21252966;
+}
+
+.wordColor {
+  color: #e0a187;
+  margin-top: 2rem;
+}
+/* 
+.breakingSpace {
+    display: none;
+} */
+
+.radiusImage {
+  width: 302px;
+  height: 302px;
+  border-radius: 50%;
+  border: 12px solid #edc4b33b;
+}
+
+/* SECTION TWO */
+.section--two {
+  padding-top: 13rem;
+}
+
+/* .background {
+  background-color: rgba(252, 249, 248, 0.7);
+} */
+.about--div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8rem;
+  z-index: 10;
+}
+
+.rectangleImage {
+  width: 350px;
+  height: 450px;
+  border: 12px solid #edc4b33b;
+}
+
+/* SECTION THREE */
+.section--three {
+  background-image: url(/image/background2.png);
+  padding-top: 8rem;
+}
+
+.allFlex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8rem;
+  z-index: 10;
+}
+
+.heading--two {
+  font-family: poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24.59px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.sameHeightImage {
+  width: 350px;
+  height: 350px;
+  /* border: 12px solid #edc4b33b; */
+}
+
+.allDiv {
+  width: 400px;
+  height: 37px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 24px 0px #00000014;
+  margin: 1.2rem 0;
+}
+
+.image--percent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 0 8px;
+}
+
+.skillsLogo {
+  width: 16px;
+  height: 20px;
+}
+
+.percentage {
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #212529;
+}
+
+.one {
+  width: 330px;
+  height: 4.8px;
+  background-color: #e0a187;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.two {
+  width: 300px;
+  height: 4.8px;
+  background-color: #e0a187;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.cssOne {
+  width: 200px;
+  height: 4.8px;
+}
+
+.cssTwo {
+  width: 200px;
+  height: 4.8px;
+}
+
+.logoWordDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.logoWord {
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19.12px;
+}
+
+.cssLogo {
+  width: 20px;
+}
+
+.jsOne {
+  width: 240px;
+  height: 4.8px;
+}
+
+.jsTwo {
+  width: 240px;
+  height: 4.8px;
+}
+
+.reactOne {
+  width: 280px;
+  height: 4.8px;
+}
+
+.reactTwo {
+  width: 280px;
+  height: 4.8px;
+}
+
+/*    SECTION FOUR */
+.section--four {
+  padding-top: 7rem;
+}
+
+.flexMargin {
+  margin-top: 4rem;
+}
+
+.allImgBorder {
+  border: 12px solid #edc4b33b;
+}
+
+.projectMargin {
+  margin-bottom: 1.3rem;
+}
+
+.buttonMargin {
+  margin-bottom: 4.4rem;
+}
+
+.buttonDemo {
+  font-family: poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20.49px;
+  text-decoration: none;
+  color: #e0a187;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #e0a187;
+  padding: 1rem 3rem;
+  background-color: #ffffff;
+}
+
+/* SECTION FIVE */
+.section--five {
+  padding-top: 8rem;
+  background-image: url(/image/Group.png);
+}
+
+.contactheading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2.2rem;
+  font-size: 2rem;
+}
+
+.contactArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: self-start;
+  gap: 20px;
+}
+
+.flexSpaceBetween {
+  gap: 20rem;
+}
+
+.nameAndEmail {
+  width: 300px;
+  height: 20px;
+  border: 1px solid #e0a187;
+  font-family: poppins;
+  font-size: 14px;
+  line-height: 19.12px;
+  /* color: #21252969; */
+  color: #21252969;
+  padding: 8px 12px;
+  background-color: rgba(252, 249, 248, 0.7);
+}
+
+.messageInputy {
+  display: flex;
+  align-items: start;
+  height: 80px;
+  padding: 0 12px;
+  background-color: rgba(252, 249, 248, 0.7);
+}
+
+.sendButton {
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21.86px;
+  color: #e0a187;
+  width: 148px;
+  height: 42px;
+  border: 1px solid #e0a187;
+  background-color: rgba(252, 249, 248, 0.7);
+}
+
+.contactImg {
+  width: 200px;
+  height: 200px;
+}
+
+/*  FOOTER */
+
+.footerFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10rem;
+}
+
+.socialIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
