@@ -3,6 +3,7 @@ const heighty = document.querySelector('.logoLink');
 const targetArea = document.querySelector(".main-link");
 const menuOpenButton = document.querySelector(".menuOpenButton");
 const menucloseButton = document.querySelector(".closeNav");
+const removeNavigation = document.querySelectorAll('.navLink');
 
 menuOpenButton.addEventListener('click', function() {
     targetArea.classList.add('hidden');
@@ -48,3 +49,17 @@ const headerObserver = new IntersectionObserver(stickyNav, {
 });
 
 headerObserver.observe(header);
+
+// removeNavigation.addEventListener('click', function(e) {
+//   e.preventDefault();
+//   e.target.classList.remove('hidden');
+// })
+
+
+removeNavigation.forEach(function (link) {
+  link.addEventListener('click', () => {
+    targetArea.classList.remove('hidden');
+  });
+
+  link.scrollIntoView({ behavior: "smooth" });
+});
