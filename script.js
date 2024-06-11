@@ -50,16 +50,8 @@ const headerObserver = new IntersectionObserver(stickyNav, {
 
 headerObserver.observe(header);
 
-// removeNavigation.addEventListener('click', function(e) {
-//   e.preventDefault();
-//   e.target.classList.remove('hidden');
-// })
-
-
 removeNavigation.forEach(function (link) {
   link.addEventListener('click', () => {
     targetArea.classList.remove('hidden');
   });
-
-  link.scrollIntoView({ behavior: "smooth" });
 });

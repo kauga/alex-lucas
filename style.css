@@ -3,9 +3,17 @@
   margin: 0;
 }
 
-body {
+.backgroungIMgOne {
   background-image: url(/image/background.jpg);
-  /* background-color: rgba(252, 249, 248, 0.9); */
+  background-color: rgba(252, 249, 248, 0.9);
+}
+
+.backgroungIMgTwo {
+  background-image: url(/image/background2.png);
+}
+
+.backgroungIMgThree {
+  background-image: url(/image/background.jpg);
 }
 
 .backgroundColor {
@@ -37,7 +45,6 @@ body {
   content: "alex john lucas";
   color: #e0a187;
 }
-
 
 .main-link {
   display: flex;
@@ -71,16 +78,6 @@ body {
 .anchorline {
   border-top: 0.4px solid #21252933;
 }
-
-/* .header {
-  z-index: 10;
-  height: 2rem;
-} */
-
-/* .header {
-  display: flex;
-  justify-content: center;
-} */
 
 .logoLink.sticky {
   position: fixed;
@@ -138,10 +135,6 @@ body {
   color: #e0a187;
   margin-top: 2rem;
 }
-/* 
-.breakingSpace {
-    display: none;
-} */
 
 .radiusImage {
   width: 302px;
@@ -152,12 +145,9 @@ body {
 
 /* SECTION TWO */
 .section--two {
-  padding-top: 13rem;
+  padding-top: 10rem;
 }
 
-/* .background {
-  background-color: rgba(252, 249, 248, 0.7);
-} */
 .about--div {
   display: flex;
   justify-content: space-between;
@@ -174,17 +164,22 @@ body {
 
 /* SECTION THREE */
 .section--three {
-  background-image: url(/image/background2.png);
-  padding-top: 8rem;
+  padding-top: 13rem;
+}
+
+.projectOnePadding {
+  padding-top: 5rem;
+  padding-bottom: 14.9rem;
 }
 
 .allFlex {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   gap: 8rem;
   z-index: 10;
 }
+
 
 .heading--two {
   font-family: poppins;
@@ -196,9 +191,12 @@ body {
 }
 
 .sameHeightImage {
-  width: 350px;
-  height: 350px;
-  /* border: 12px solid #edc4b33b; */
+  width: 380px;
+  height: 400px;
+}
+
+.codingImg {
+  height: 460px;
 }
 
 .allDiv {
@@ -312,7 +310,7 @@ body {
 }
 
 .buttonMargin {
-  margin-bottom: 4.4rem;
+  margin-bottom: 3.4rem;
 }
 
 .buttonDemo {
@@ -323,16 +321,15 @@ body {
   text-decoration: none;
   color: #e0a187;
   width: 100px;
-  height: 30px;
+  height: 20px;
   border: 1px solid #e0a187;
-  padding: 1rem 3rem;
-  background-color: #ffffff;
+  padding: 1rem 2.4rem;
+  background-color: rgba(224, 161, 135, 0.1);
 }
 
 /* SECTION FIVE */
 .section--five {
   padding-top: 8rem;
-  background-image: url(/image/Group.png);
 }
 
 .contactheading {
@@ -352,7 +349,9 @@ body {
 }
 
 .flexSpaceBetween {
-  gap: 20rem;
+  justify-content: flex-start;
+  gap: 14rem;
+  padding: 2rem 9rem;
 }
 
 .nameAndEmail {
@@ -395,11 +394,15 @@ body {
 
 /*  FOOTER */
 
+.footer {
+  margin-left: 3rem;
+}
+
 .footerFlex {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10rem;
+  /* gap: 10rem; */
 }
 
 .socialIcon {
