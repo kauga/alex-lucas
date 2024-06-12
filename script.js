@@ -1,19 +1,19 @@
 "use strict";
-const heighty = document.querySelector('.logoLink');
+const heighty = document.querySelector(".logoLink");
 const targetArea = document.querySelector(".main-link");
 const menuOpenButton = document.querySelector(".menuOpenButton");
 const menucloseButton = document.querySelector(".closeNav");
-const removeNavigation = document.querySelectorAll('.navLink');
+const removeNavigation = document.querySelectorAll(".navLink");
 
-menuOpenButton.addEventListener('click', function() {
-    targetArea.classList.add('hidden');
-    console.log('something going wrong after clicked');
-})
+menuOpenButton.addEventListener("click", function () {
+  targetArea.classList.add("hidden");
+  console.log("something going wrong after clicked");
+});
 
-menucloseButton.addEventListener('click', function() {
-    console.log('marekebisho kidogo')
+menucloseButton.addEventListener("click", function () {
+  console.log("marekebisho kidogo");
 
-    targetArea.classList.remove('hidden');
+  targetArea.classList.remove("hidden");
 });
 
 document.querySelector(".main-link").addEventListener("click", function (e) {
@@ -26,19 +26,19 @@ document.querySelector(".main-link").addEventListener("click", function (e) {
   }
 });
 
-// sticky navigation 
-const header = document.querySelector('.section--one');
+// sticky navigation
+const header = document.querySelector(".section--one");
 const targetheight = heighty.getBoundingClientRect().height;
 
 const stickyNav = function (entries) {
   const [entry] = entries;
 
   if (!entry.isIntersecting) {
-    heighty.classList.add("sticky")
-    console.log('sticky')
+    heighty.classList.add("sticky");
+    console.log("sticky");
   } else {
     heighty.classList.remove("sticky");
-    console.log('hhh')
+    console.log("hhh");
   }
 };
 
@@ -51,7 +51,7 @@ const headerObserver = new IntersectionObserver(stickyNav, {
 headerObserver.observe(header);
 
 removeNavigation.forEach(function (link) {
-  link.addEventListener('click', () => {
-    targetArea.classList.remove('hidden');
+  link.addEventListener("click", () => {
+    targetArea.classList.remove("hidden");
   });
 });

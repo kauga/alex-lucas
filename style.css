@@ -21,7 +21,7 @@
 }
 
 .section--padding {
-  padding: 2rem 6rem;
+  padding: 2rem 7rem;
 }
 
 .logoLink {
@@ -106,12 +106,16 @@
 }
 /* SECTION ONE */
 .whatever--radiusImage {
-  display: flex;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   justify-content: space-between;
   align-items: center;
   gap: 8rem;
   z-index: 10;
-  padding-top: 5rem;
+  padding-top: 6rem;
 }
 
 .heading--one {
@@ -137,19 +141,23 @@
 }
 
 .radiusImage {
-  width: 302px;
-  height: 302px;
+  width: 382px;
+  height: 382px;
   border-radius: 50%;
-  border: 12px solid #edc4b33b;
+  border: 20px solid #edc4b33b;
 }
 
 /* SECTION TWO */
 .section--two {
-  padding-top: 10rem;
+  padding-top: 15rem;
 }
 
 .about--div {
-  display: flex;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   justify-content: space-between;
   align-items: center;
   gap: 8rem;
@@ -159,27 +167,42 @@
 .rectangleImage {
   width: 350px;
   height: 450px;
-  border: 12px solid #edc4b33b;
+  border: 20px solid #edc4b33b;
 }
 
 /* SECTION THREE */
 .section--three {
-  padding-top: 13rem;
+  padding-top: 8rem;
 }
 
 .projectOnePadding {
-  padding-top: 5rem;
-  padding-bottom: 14.9rem;
+  padding-top: 8rem;
+  padding-bottom: 10rem;
+}
+
+.professionalFlex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8rem;
 }
 
 .allFlex {
-  display: flex;
+  /* display: flex;
   justify-content: center;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
   align-items: center;
   gap: 8rem;
   z-index: 10;
 }
-
+/* .skills {
+  width: 434px;
+  height: 403px;
+} */
 
 .heading--two {
   font-family: poppins;
@@ -190,18 +213,19 @@
   margin-bottom: 8px;
 }
 
-.sameHeightImage {
-  width: 380px;
-  height: 400px;
+.codingImg {
+  width: 506px;
+  height: 475px;
 }
 
-.codingImg {
-  height: 460px;
+.sameHeightImage {
+  width: 458px;
+  height: 463px;
 }
 
 .allDiv {
-  width: 400px;
-  height: 37px;
+  width: 427px;
+  height: 45px;
   background-color: #ffffff;
   box-shadow: 10px 10px 24px 0px #00000014;
   margin: 1.2rem 0;
@@ -211,14 +235,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
-  padding: 0 8px;
+  margin-bottom: 14px;
+  padding: 4px 8px 0 8px;
 }
 
-.skillsLogo {
+.htmlLogo {
+  height: 21px;
+}
+
+/* .skillsLogo {
   width: 16px;
   height: 20px;
-}
+} */
 
 .percentage {
   font-family: poppins;
@@ -243,6 +271,12 @@
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
 }
+
+/* .htmlOne, .html.htmlOne, .htmlTwo {
+  margin-top: 0;
+}Two {
+  margin-top: 0;
+} */
 
 .cssOne {
   width: 200px;
@@ -291,6 +325,9 @@
   width: 280px;
   height: 4.8px;
 }
+.brSpace {
+  display: none;
+}
 
 /*    SECTION FOUR */
 .section--four {
@@ -302,12 +339,12 @@
 }
 
 .allImgBorder {
-  border: 12px solid #edc4b33b;
+  border: 20px solid #edc4b33b;
 }
 
-.projectMargin {
+/* .projectMargin {
   margin-bottom: 1.3rem;
-}
+} */
 
 .buttonMargin {
   margin-bottom: 3.4rem;
@@ -324,12 +361,16 @@
   height: 20px;
   border: 1px solid #e0a187;
   padding: 1rem 2.4rem;
-  background-color: rgba(224, 161, 135, 0.1);
+  background-color: rgba(224, 161, 135, 0.01);
 }
 
 /* SECTION FIVE */
 .section--five {
   padding-top: 8rem;
+}
+
+.contactFlex {
+  gap: 15rem;
 }
 
 .contactheading {
@@ -345,7 +386,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: self-start;
-  gap: 20px;
+  gap: 22px;
 }
 
 .flexSpaceBetween {
@@ -355,13 +396,15 @@
 }
 
 .nameAndEmail {
-  width: 300px;
-  height: 20px;
+  /* display: flex;
+  justify-content: flex-start;
+  align-items:end; */
+  width: 461px;
+  height: 27px;
   border: 1px solid #e0a187;
   font-family: poppins;
   font-size: 14px;
   line-height: 19.12px;
-  /* color: #21252969; */
   color: #21252969;
   padding: 8px 12px;
   background-color: rgba(252, 249, 248, 0.7);
@@ -369,8 +412,9 @@
 
 .messageInputy {
   display: flex;
-  align-items: start;
-  height: 80px;
+  justify-content: flex-start;
+  align-self: start;
+  height: 130px;
   padding: 0 12px;
   background-color: rgba(252, 249, 248, 0.7);
 }
@@ -395,14 +439,19 @@
 /*  FOOTER */
 
 .footer {
-  margin-left: 3rem;
+  margin-left: 0;
 }
 
 .footerFlex {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* gap: 10rem; */
+  gap: 10rem;
+
+  /* display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-content: start;
+  align-items: center; */
 }
 
 .socialIcon {
