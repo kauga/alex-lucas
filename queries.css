@@ -111,6 +111,10 @@
   .contactheading {
     justify-content: flex-start;
   }
+
+  .whatever--radiusImage {
+    padding-top: 1rem;
+  }
 }
 
 /* MOBILE 900px */
