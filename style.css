@@ -6,14 +6,17 @@
 .backgroungIMgOne {
   background-image: url(/image/background.jpg);
   background-color: rgba(252, 249, 248, 0.9);
+  background-repeat: no-repeat;
 }
 
 .backgroungIMgTwo {
   background-image: url(/image/background2.png);
+  background-repeat: no-repeat;
 }
 
 .backgroungIMgThree {
   background-image: url(/image/background.jpg);
+  background-repeat: no-repeat;
 }
 
 .backgroundColor {
@@ -29,7 +32,8 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 8px;
-  padding: 2rem 6rem 1rem 6rem;
+  padding: 0 6rem;
+  max-height: 6rem;
 }
 
 .authorName {
@@ -84,7 +88,7 @@
   background-color: #fff;
   top: 0;
   width: 100%;
-  z-index: 10;
+  z-index: 1000;
   padding: 1rem 0 1rem 0;
 }
 
@@ -105,10 +109,15 @@
   height: 1.4rem;
 }
 /* SECTION ONE */
+.section--one {
+  display: flex;
+  justify-content: center;
+}
 .whatever--radiusImage {
   /* display: flex;
   justify-content: space-between;
   align-items: center; */
+  max-width: 80rem;
   display: grid;
   grid-template-columns: 2fr 1fr;
   justify-content: space-between;
@@ -150,12 +159,15 @@
 /* SECTION TWO */
 .section--two {
   padding-top: 15rem;
+  display: flex;
+  justify-content: center;
 }
 
 .about--div {
   /* display: flex;
   justify-content: space-between;
   align-items: center; */
+  max-width: 90rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
   justify-content: space-between;
@@ -173,6 +185,8 @@
 /* SECTION THREE */
 .section--three {
   padding-top: 8rem;
+  display: flex;
+  justify-content: center;
 }
 
 .projectOnePadding {
@@ -181,11 +195,27 @@
 }
 
 .professionalFlex {
+  max-width: 100rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
   align-items: center;
   gap: 8rem;
+}
+
+.alignedCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.projectGrid {
+  max-width: 90rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8rem;
+  z-index: 10;
 }
 
 .allFlex {
@@ -199,6 +229,7 @@
   gap: 8rem;
   z-index: 10;
 }
+
 /* .skills {
   width: 434px;
   height: 403px;
@@ -443,15 +474,11 @@
 }
 
 .footerFlex {
+  max-width: 100rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   align-items: center;
   gap: 10rem;
-
-  /* display: grid;
-  grid-template-columns: 2fr 1fr;
-  justify-content: start;
-  align-items: center; */
 }
 
 .socialIcon {

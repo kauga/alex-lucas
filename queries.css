@@ -81,7 +81,7 @@
   }
 
   .whatever--radiusImage,
-  .allFlex,
+  .projectGrid,
   .about--div {
     gap: 3rem;
   }
@@ -120,7 +120,7 @@
 /* MOBILE 900px */
 @media screen and (max-width: 900px) {
   .whatever--radiusImage,
-  .allFlex,
+  .projectGrid,
   .professionalFlex {
     grid-template-columns: 1fr;
   }
@@ -263,5 +263,9 @@
 
   .flexSpaceBetween {
     gap: 4rem;
+  }
+
+  .logoLink.hidden {
+    width: 60%;
   }
 }
