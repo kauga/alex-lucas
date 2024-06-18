@@ -1,3 +1,20 @@
+@media screen and (max-width: 2560px) {
+  .radiusImage {
+    height: 280px;
+    width: 280px;
+  }
+
+  .rectangleImage {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .logoLink {
+    padding: 0 3rem;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .main-link {
     position: fixed;
@@ -16,10 +33,10 @@
   .main-link.hidden {
     left: -100%;
   }
-
+/* 
   .logoLink {
-    padding: 1.2rem 0 1rem 0;
-  }
+    padding: 0 3rem;
+  } */
 
   .menuOpenButton {
     display: block;
@@ -136,6 +153,14 @@
     padding: 2rem 4rem;
   }
 
+
+  .logoLink.hidden {
+    width: 80%;
+    /* height: 5rem; */
+    height: 2rem;
+    padding: 0 10px;
+  }
+
   .heading--one {
     font-size: 30px;
   }
@@ -231,6 +256,11 @@
     height: 270px;
   }
 
+
+  .logoLink {
+    padding: 0 10px;
+  }
+
   .rectangleImage {
     width: 280px;
     height: 380px;
@@ -263,9 +293,5 @@
 
   .flexSpaceBetween {
     gap: 4rem;
-  }
-
-  .logoLink.hidden {
-    width: 60%;
   }
 }

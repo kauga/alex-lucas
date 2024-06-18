@@ -16,6 +16,8 @@ menucloseButton.addEventListener("click", function () {
   targetArea.classList.remove("hidden");
 });
 
+// kauga1944
+
 document.querySelector(".main-link").addEventListener("click", function (e) {
   e.preventDefault();
 
