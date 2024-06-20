@@ -27,28 +27,25 @@
   padding: 2rem 7rem;
 }
 
-.header {
-  background-color: rgba(252, 249, 248, 0.9);
-}
-
 .logoLink {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 6rem;
-  padding: 0 6rem;
-  z-index: 100;
-
-  width: 92.8%
+  margin-bottom: 8px;
+  padding: 17px 60px;
+  max-height: 6rem;
+  height: 4rem;
 }
 
 .logoLink.sticky {
   position: fixed;
   background-color: #fff;
-  /* top: 0; */
-  /* width: 87%; */
-  /* width: 97%; */
-  max-width: 94%;
+  top: 0;
+  width: 97%;
+  z-index: 1000;
+  padding: 0 20px;
+  padding: 1rem 0 1rem 0;
+  max-width: 100%;
 }
 
 .authorName {
@@ -83,7 +80,7 @@
   text-decoration: none;
   list-style: none;
 }
-
+/* #4bbb7d */
 .navLinks,
 .navItems,
 .navLink:hover {
@@ -120,6 +117,9 @@
   justify-content: center;
 }
 .whatever--radiusImage {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
   max-width: 80rem;
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -161,12 +161,15 @@
 
 /* SECTION TWO */
 .section--two {
-  padding-top: 12rem;
+  padding-top: 15rem;
   display: flex;
   justify-content: center;
 }
 
 .about--div {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
   max-width: 90rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -219,6 +222,9 @@
 }
 
 .allFlex {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
@@ -226,6 +232,11 @@
   gap: 8rem;
   z-index: 10;
 }
+
+/* .skills {
+  width: 434px;
+  height: 403px;
+} */
 
 .heading--two {
   font-family: poppins;
@@ -266,6 +277,11 @@
   height: 21px;
 }
 
+/* .skillsLogo {
+  width: 16px;
+  height: 20px;
+} */
+
 .percentage {
   font-family: poppins;
   font-size: 14px;
@@ -289,6 +305,12 @@
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
 }
+
+/* .htmlOne, .html.htmlOne, .htmlTwo {
+  margin-top: 0;
+}Two {
+  margin-top: 0;
+} */
 
 .cssOne {
   width: 200px;
@@ -354,6 +376,10 @@
   border: 20px solid #edc4b33b;
 }
 
+/* .projectMargin {
+  margin-bottom: 1.3rem;
+} */
+
 .buttonMargin {
   margin-bottom: 3.4rem;
 }
@@ -404,6 +430,9 @@
 }
 
 .nameAndEmail {
+  /* display: flex;
+  justify-content: flex-start;
+  align-items:end; */
   width: 461px;
   height: 27px;
   border: 1px solid #e0a187;
