@@ -27,25 +27,29 @@
   padding: 2rem 7rem;
 }
 
+.header {
+  width: 100%;
+  position: relative;
+}
+
 .logoLink {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 3rem;
   margin-bottom: 8px;
   padding: 17px 60px;
   max-height: 6rem;
   height: 4rem;
+  flex-wrap: wrap;
+  z-index: 100;
 }
 
 .logoLink.sticky {
   position: fixed;
   background-color: #fff;
-  top: 0;
-  width: 97%;
-  z-index: 1000;
-  padding: 0 20px;
-  padding: 1rem 0 1rem 0;
-  max-width: 100%;
+  width: 100%;
+ padding: 17px 0;
 }
 
 .authorName {
