@@ -38,18 +38,20 @@
   align-items: center;
   gap: 3rem;
   margin-bottom: 8px;
-  padding: 17px 60px;
+  padding: 1rem 8rem;
   max-height: 6rem;
   height: 4rem;
   flex-wrap: wrap;
   z-index: 100;
+  /* width: 99%; */
 }
 
 .logoLink.sticky {
   position: fixed;
   background-color: #fff;
-  width: 100%;
- padding: 17px 0;
+  /* width: 100%; */
+  /* width: 1256px; */
+  /* padding: 17px 3rem; */
 }
 
 .authorName {
