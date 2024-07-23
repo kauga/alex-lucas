@@ -28,30 +28,6 @@ document.querySelector(".main-link").addEventListener("click", function (e) {
   }
 });
 
-// sticky navigation
-// const header = document.querySelector(".section--one");
-// const targetheight = heighty.getBoundingClientRect().height;
-
-// const stickyNav = function (entries) {
-//   const [entry] = entries;
-
-//   if (!entry.isIntersecting) {
-//     heighty.classList.add("sticky");
-//     console.log("sticky");
-//   } else {
-//     heighty.classList.remove("sticky");
-//     console.log("hhh");
-//   }
-// };
-
-// const headerObserver = new IntersectionObserver(stickyNav, {
-//   root: null,
-//   threshold: 0,
-//   rootMargin: `-${targetheight}px`,
-// });
-// c
-// headerObserver.observe(header);
-
 const header = document.querySelector(".section--one");
 const targetheight = heighty.getBoundingClientRect().height;
 
