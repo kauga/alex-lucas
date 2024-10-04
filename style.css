@@ -163,6 +163,8 @@
   height: 382px;
   border-radius: 50%;
   border: 20px solid #edc4b33b;
+  object-fit: cover;
+  object-position: top right;
 }
 
 /* SECTION TWO */
@@ -189,6 +191,8 @@
   width: 350px;
   height: 450px;
   border: 20px solid #edc4b33b;
+  object-fit: cover;
+  object-position: top right;
 }
 
 /* SECTION THREE */
@@ -256,11 +260,15 @@
 .codingImg {
   width: 506px;
   height: 475px;
+  object-fit: cover;
+  object-position: top left;
 }
 
 .sameHeightImage {
   width: 458px;
   height: 463px;
+  object-fit: cover;
+  object-position: top left;
 }
 
 .allDiv {
